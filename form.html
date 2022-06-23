@@ -1,0 +1,78 @@
+<!DOCTYPE>
+<html>
+<head>
+  <title>Etext Admission</title>
+   <link rel="stylesheet" type="text/css" href="form.css">
+  	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+</head>
+<div class="form-style-5">
+	<img src="etextlogo.jpg" style="width: 100%;height: auto;">
+
+<form action="admission.php" method="POST">
+<fieldset>
+<legend style="color: #1F305E;font-weight: bold;">Candidate Info</legend>
+<input type="text" name="name" placeholder=" Name " required="">
+<input type="text" name="fathername" placeholder=" Name of father " required="">
+<label>Address</label>
+<textarea name="address" placeholder="Address" style="width: 100%" required=""></textarea>
+<input type="text" name="roadpoint" placeholder="Road point" required="">
+<label>Class :</label>
+<select name="class" >
+		<option value="1">1</option>	
+		<option value="2">2</option>
+		<option value="3">3</option>	
+		<option value="4">4</option>	
+		<option value="5">5</option>	
+		<option value="6">6</option>	
+		<option value="7">7</option>	
+		<option value="8">8</option>	
+		<option value="9">9</option>	
+		<option value="10">10</option>	
+		<option value="11">11</option>
+		<option value="12">12</option>	
+     	</select>
+<label>Madrassa :</label>
+<select name="madrassa" >
+		<option value="1">1</option>	
+		<option value="2">2</option>
+		<option value="3">3</option>	
+		<option value="4">4</option>	
+		<option value="5">5</option>	
+		<option value="6">6</option>	
+		<option value="7">7</option>	
+		<option value="8">8</option>	
+		<option value="9">9</option>	
+		<option value="10">10</option>	
+		<option value="11">11</option>
+		<option value="12">12</option>	
+     	</select>
+<label >Fathers job :</label>
+<select name="job" >
+		<option value="buisiness">Buisiness</option>	
+		<option value="kooli">Kooli</option>
+		<option value="sarkar">Sarkar</option>	
+		<option value="other">Other</option>	</select>
+	
+<label>Tution type :</label>
+<select name="tutiontype" >
+		<option value="individual">INDIVIDUAL</option>	
+		<option value="group">GROUP</option>
+</select>
+
+
+<label for="course">Transport needed :</label>
+<select name="transport" required="">
+		<option value="no">NO</option>	
+		<option value="yes">YES</option>
+</select>
+
+<input type="text" name="laststudiedschool" placeholder="Last studied institution (school) "  >
+<input type="text" name="laststudiedmadrassa" placeholder="Last studied madrassa">
+<input type="text" name="mcontact" placeholder="Mobile" required="">
+<input type="text" name="wcontact" placeholder="Whatsapp Number">
+</fieldset>
+<input type="submit" value="Apply" />
+</form>
+</div>
+</html>
